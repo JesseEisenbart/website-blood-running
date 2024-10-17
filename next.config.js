@@ -1,8 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-const withMarkdoc = require('@markdoc/next.js');
-
-module.exports = withMarkdoc(/* options */)({
-  pageExtensions: ['md', 'mdoc', 'js', 'jsx', 'ts', 'tsx']
-});
+module.exports = {
+	async redirects() {
+		return [
+			{
+				source: '/discord',
+				destination:
+					'https://discord.gg/dead-unicorn-772603203246227547',
+				permanent: true,
+			},
+		];
+	},
+};
