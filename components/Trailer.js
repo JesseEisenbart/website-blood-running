@@ -8,7 +8,7 @@ const Trailer = () => {
 				<div className='pb-[56.2061%] mt-12 relative'>
 					<iframe
 						className='absolute top-0 left-0 w-full h-full'
-						src='https://www.youtube.com/embed/zLQGkK0Or6A?si=n9gr_yqzOBsnMuEV'
+						src='https://www.youtube.com/embed/yJQPKT8QICk?si=oKNq3G1UJyttJty9'
 						title='YouTube video player'
 						style={{ border: '0' }}
 						allowFullScreen
